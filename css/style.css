@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+
+header {
+  font-family: cursive;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  flex-wrap: wrap; }
+
+p {
+  font-weight: 100;
+  font-size: 2rem;
+  text-align: left; }
+
+nav {
+  align-self: center; }
+  nav .navBar {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 2.5rem;
+    margin-top: 20px;
+    align-self: center;
+    background-color: #EDC2F2; }
+    nav .navBar .li a {
+      text-decoration: none;
+      color: white; }
+    nav .navBar .hover {
+      color: aqua; }
+
+body {
+  font-family: cursive;
+  background-color: #EDC2F2;
+  color: black;
+  text-align: center; }
+
+button {
+  background-color: #EDC2F2;
+  border: #EDC2F2 solid 1px;
+  color: black; }
+
+footer {
+  text-align: center;
+  font-size: 3.5rem;
+  background-color: #f8c5e1; }
+
+.redes {
+  width: 50px;
+  height: auto; }
+
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center; }
+
+body {
+  font-family: cursive;
+  background-color: #fcb4c3;
+  color: black;
+  text-align: center; }
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 3rem;
+  background-color: #EDC2F2;
+  color: black; }
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: medium;
+  background-color: #D9E2FB;
+  color: black; }
+
+.rosa {
+  background-color: #F27373; }
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.icono {
+  width: 100px;
+  height: auto; }
+
+.servicios {
+  background-color: white;
+  border: 10px solid #EDC2F2; }
+
+.carousel-item {
+  height: 1000px;
+  width: auto; }
+
+.nosotros {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-items: center;
+  text-align: center; }
+
+@media screen and (max-width: 768px) {
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    text-align: center; } }
+
+@media screen and (max-width: 425px) {
+  .nosotros {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    text-align: center; } }

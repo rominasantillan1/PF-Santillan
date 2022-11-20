@@ -1,0 +1,26 @@
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+body{
+    font-family: cursive;
+    background-color: rgb(252, 180, 195);
+    color: black;
+    text-align: center;
+
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    background-color:#EDC2F2;
+    color: black;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: #D9E2FB;
+    color: black;
+}

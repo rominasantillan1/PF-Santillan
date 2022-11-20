@@ -1,0 +1,18 @@
+@media screen  and (max-width:768px){
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width:425px){
+    .nosotros{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+        text-align: center;
+    }
+}
